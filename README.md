@@ -12,7 +12,11 @@ Our implementation employs Socket Programming, a fundamental communication mecha
 **Running Server**
 - Open a terminal and navigate to the project directory. Run the following command to start the server: `python fl_server.py`
 - The server will start and begin listening for client connections on `127.0.0.1:12345`.
+  
+![Server](https://github.com/gadmin7/tree-based-federated-learning/blob/main/Screenshot%20(1893).png)
 
 **Running Client**
 - Open multiple terminals (one for each client) and navigate to the project directory in each terminal. Run the following command in each terminal to start a client:`python fl_client.py`
 - Ensure you start the same number of clients as specified in `NUM_CLIENTS` in fl_server.py. By default, this number is 5.
+  
+![Client](https://github.com/gadmin7/tree-based-federated-learning/blob/main/Screenshot%20(1894).png)
