@@ -4,9 +4,10 @@ Basic Cross-Silo Horizontal Federated Learning PoC using Socket Programming with
 # About
 Federated Learning (FL) is a groundbreaking approach to collaborative machine learning that prioritizes data privacy by enabling multiple parties to train models without directly sharing raw data. This project focuses on a specific FL paradigm Horizontal Federated Learning.
 
-In this proof of concept, we utilize Walmart's Weekly Sales data to simulate an environment with multiple clients and a server, all hosted locally. Each client represents a separate data silo, and their contributions are aggregated on a central server.
+In this proof of concept, we utilize Walmart's Weekly Sales data to simulate an environment with multiple clients and a server, all hosted locally.Each client represents an independent data silo, with their contributions being aggregated on a central server.
 
-Our implementation employs Socket Programming, a fundamental communication mechanism, to facilitate interaction between distributed clients and the server.
+
+Our implementation employs Socket Programming, a fundamental inter-process communication (IPC) mechanism, to facilitate bidirectional data exchange between distributed clients and the central server.
 
 # Run Commands
 **Running Server**
