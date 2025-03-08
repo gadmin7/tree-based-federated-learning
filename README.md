@@ -1,5 +1,5 @@
 # Tree-Based Federated Learning
-Basic Cross-Silo Horizontal Federated Learning PoC using Socket Programming with Decision Tree-based Model Training
+Basic Cross-Silo Horizontal Federated Learning PoC using Socket Programming with Decision Tree-based Model Training.
 
 # About
 Federated Learning (FL) is a groundbreaking approach to collaborative machine learning that prioritizes data privacy by enabling multiple parties to train models without directly sharing raw data. This project focuses on a specific FL paradigm Horizontal Federated Learning.
